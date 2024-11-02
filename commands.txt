@@ -1,0 +1,34 @@
+ 1 try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+   2 python app.py
+   3 import psutil
+   4 pip --version
+   5 pip install psutil
+   6 python .\app.py
+   7 pip install flask
+   8 python .\app.py
+   9 python .\app.py
+  10 python .\app.py
+  11 python .\app.py
+  12 pip install .\requirements.txt
+  13 python .\app.py
+  14 python .\app.py
+  15 python .\app.py
+  16 python .\app.py
+  17 python .\app.py
+  18 python .\app.py
+  19 docker build -t myapp .
+  20 docker image
+  21 docker images
+  22 docker images -all
+  23 docker images --all
+  24 docker run -p 5000:5000 c06deafa89bc
+  25 pip install boto3
+  26 python .\app.py
+  27 history
+  28 python .\ecr.py
+  29 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 465123183304.dkr.ecr.us-east-1.amazonaws.com
+  30 docker build -t cloud-monitoring-app .
+  31 docker tag cloud-monitoring-app:latest 465123183304.dkr.ecr.us-east-1.amazonaws.com/cloud-monitoring-app:latest
+  32 docker push 465123183304.dkr.ecr.us-east-1.amazonaws.com/cloud-monitoring-app:latest
+  33 kubectl get pods -n default
+  34 pip install kubernetes
